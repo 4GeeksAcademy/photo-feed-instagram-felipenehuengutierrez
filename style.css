@@ -1,14 +1,24 @@
-* { 
+body { 
+    height: 100vh;
     margin:0;
     padding: 0;
-    border:0;  }
-
+    border:0; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /*align-items: center; */
+   
+ 
+.texto-final {
+background: whi}
+.Liked {
+    margin: 0;
+}
 .post {
  max-width: 700px;
  margin: auto;
  background-color: white;
  padding: 13px;
-
 }
 .post-header{
     display: flex;
@@ -23,7 +33,6 @@
 .title{
  width: 91%;
 }
-
 .menu-vertical {
     font-size: 200%;
     display: flex;
@@ -31,19 +40,16 @@
     align-items: center;
     width: 4%;
 }
-
 .post-imagen {
  display:flex;
  justify-content:center;
   align-items:center;
-  
 }
 .post-imagen img {
     height: 460px;
     width: 700px;
     object-fit: cover;
 }
-
 .post-icons { 
     font-size: 200%;
     padding-block-start: 2%;
@@ -51,9 +57,8 @@
     position: relative;
     
 }
-
-.guardar {
+ .guardar {
  position: absolute;   
  top: 1; 
  right: 0;
-}
+ }
